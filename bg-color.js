@@ -51,6 +51,7 @@ var color = [
 
 var x = 0;
 function RaFunction() {
+  //slideshow background
   setTimeout(function () {
     document.body.style.backgroundColor = color[x];
     x++;
