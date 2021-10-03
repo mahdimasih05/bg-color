@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>colorful background</title>
+    <link rel="stylesheet" href="bg-color.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <form class="form text-center" style="margin-top: 8rem">
+      <label class="label1" for="select"
+        >Choose your favorite color for background:</label
+      >
+      <br />
+      <select class="custom-select col-md-6 col-sm-12" id="select">
+        <option style="display: none" selected>Tap to choose colors...</option>
+        <option value="bla">Black</option>
+        <option value="bl">Blue</option>
+        <option value="gr">Green</option>
+        <option value="ge">Grey</option>
+        <option value="re">Red</option>
+        <option value="or">Orange</option>
+        <option value="pi">Pink</option>
+        <option value="pu">Purple</option>
+        <option value="wh">White</option>
+        <option value="ye">Yellow</option>
+      </select>
+      <button type="button" class="btn btn-primary my-1" onclick="ChFunction()">
+        Set
+      </button>
+    </form>
+    <script type="text/javascript" src="bg-color.js"></script>
+  </body>
+</html>
